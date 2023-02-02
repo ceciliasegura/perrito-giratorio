@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(58, 56, 56);
+}
+
+.content {
+    background-color: white;
+    height: 900px;
+
+}
+
+.container {
+    background-color: black;
+}
+
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff7979;
+    width: 150px;
+    height: 150px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 0;
+    top: -70px;
+    left: -70px;
+    padding: 50px 0px 0px 50px;
+    border: none;
+    transition: all 0.5s;
+
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 15% 20% 15%;
+    transition: all 0.5s;
+    position: absolute;
+    top: -80px;
+    left: -70px;
+    z-index: -1;
+    transition: all 0.5s;
+    
+
+}
+
+.turn{
+    rotate:-20deg;
+    transform: translateX(300px) translateY(-80px);
+
+}
+
+.img-dog {
+    width: 900px;
+    height: 600px;
+}
+
+h2 {
+    font-size: smaller;
+    color: rgb(90, 88, 88);
+    margin-top: -15px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+
+.divContac{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    margin-top: 80%;
+
+}
+.change {
+    transform: rotate(-40deg) translateX(300px) translateY(-200px)
+
+}
+
+
+.rotate{
+    rotate:-90deg;
+}
+
+.circle-container >i:first-child{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+}
+
+.circle-container >i:last-child{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    right: 70px;
+
+}
+
+.home, .about, .contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-left: 30px;
+    padding-top: 2px;
+    
+}
+
+.divContac p{
+    font-size: 20px;
+}
+
+
+
+
+
+
