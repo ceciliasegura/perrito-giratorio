@@ -77,7 +77,11 @@ h3 {
     flex-direction: column;
     color: white;
     display: flex;
-    margin-top: 80%;
+    position: fixed;
+    bottom: 90px; 
+    left: 50px;
+    z-index: -3;
+
 
 }
 .change {
@@ -115,6 +119,12 @@ h3 {
     padding-left: 30px;
     padding-top: 2px;
     
+}
+.about{
+margin-left: 15px;
+}
+.contact{
+    margin-left: 30px;  
 }
 
 .divContac p{
